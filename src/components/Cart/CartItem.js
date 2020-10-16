@@ -1,5 +1,4 @@
 import React from "react";
-import Title from "../Title";
 
 const CartItem = ({ item, value }) => {
   const { id, title, img, price, total, count } = item;

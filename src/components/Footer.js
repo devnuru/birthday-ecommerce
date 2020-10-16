@@ -14,24 +14,24 @@ const Footer = () => {
               incididunt ut labore dolore magna aliqua enim ad minim veniam.
               <ul className="list-inline socials-links">
                 <li className="list-inline-item mb-2">
-                  <a className="active" href="#">
+                  <Link to="/" className="active">
                     <i className="fa fa-facebook"> </i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="list-inline-item mb-2">
-                  <a href="#">
+                  <Link to="/">
                     <i className="fa fa-twitter"> </i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="list-inline-item mb-2">
-                  <a href="#">
+                  <Link to="/">
                     <i className="fa fa-vimeo"> </i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="list-inline-item mb-2">
-                  <a href="#">
+                  <Link to="/">
                     <i className="fa fa-linkedin"> </i>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -61,19 +61,19 @@ const Footer = () => {
               <h4 className="text-white mb-3">Services</h4>
               <ul className="list-unstyled lh-38">
                 <li>
-                  <a href="#">Web Design</a>
+                  <Link to="/">Web Design</Link>
                 </li>
                 <li>
-                  <a href="#">Web Development</a>
+                  <Link to="/">Web Development</Link>
                 </li>
                 <li>
-                  <a href="#">Wordpress Development</a>
+                  <Link to="/">Wordpress Development</Link>
                 </li>
                 <li>
-                  <a href="#">MERN Stack</a>
+                  <Link to="/">MERN Stack</Link>
                 </li>
                 <li>
-                  <a href="#">Front-end </a>
+                  <Link to="/">Front-end </Link>
                 </li>
               </ul>
             </div>
@@ -84,19 +84,19 @@ const Footer = () => {
               <ul className="list-unstyled lh-38">
                 <li>Rangpur, Dhaka</li>
                 <li>
-                  <a href="#">+8801317111458</a>
+                  <Link to="/">+8801317111458</Link>
                 </li>
                 <li>
-                  <a href="#">+8801704377331</a>
+                  <Link to="/">+8801704377331</Link>
                 </li>
                 <li>
-                  <a href="#">support@nuruzzamanchowdhury.com</a>
+                  <Link to="/">support@nuruzzamanchowdhury.com</Link>
                 </li>
                 <li>
-                  <a href="#">blockchainminer99@gmail.com</a>
+                  <Link to="/">blockchainminer99@gmail.com</Link>
                 </li>
                 <li>
-                  <a href="#">nuruzzamanchowdhury8</a>
+                  <Link to="/">nuruzzamanchowdhury8</Link>
                 </li>
               </ul>
             </div>
@@ -119,11 +119,11 @@ const Footer = () => {
             </div>
             <div className="col-lg-4 col-12 col-sm-12">
               <div className="text-center text-lg-right">
-                <a href="#">
+                <Link to="/">
                   Terms of Service
                   <span className="mx-2">|</span>
-                </a>
-                <a href="#">Privacy Policy</a>
+                </Link>
+                <Link to="/">Privacy Policy</Link>
               </div>
             </div>
           </div>
